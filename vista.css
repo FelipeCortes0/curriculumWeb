@@ -1,0 +1,412 @@
+
+* {
+	box-sizing: border-box;
+}
+
+#contenedor{
+    width: 750px;
+    height: 1320px;
+    border: 2px solid;
+    float: center;
+    position:relative;
+    left: 280px;
+    background: #FCF8F8;
+
+}
+
+#body {
+    padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+#header{
+    background: #00897B;
+    margin-top: 0px;
+    height: 175px;
+    margin-bottom: 70px;
+
+}
+
+#perfil{
+    float: right;
+    margin-top: 10px;
+	padding-left: 5px;
+	margin-left: 0px;
+    margin-right: 320px;
+    width: 200px;
+    height:200px;
+}
+
+img {
+    margin-left: 20px;
+	margin-top: 23px;
+	margin-right: 0px;
+}
+
+h1 {
+    margin-bottom: 2px;
+	margin-top: 10px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 28px;
+}
+
+
+#habilidades{
+    color: #D0E9D6;
+}
+
+#contacto{
+    list-style: none;
+    margin-top: 28px;
+    padding: 0px;
+    }
+
+ul#contacto {
+    width: 430px;
+    height: 200;
+}
+
+.contactouno{
+    float: left;
+    padding-right: 25px;
+    color:#D0E9D6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#cualidades {
+    float: left;
+    height: 200px;
+    width: 500px;
+    margin-left: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-top: 25px;
+    color:gray;
+}
+
+#habilidades{
+    color:white;
+}
+
+#usuario{
+    color: #00897B;
+    height: 50px;
+    width: 50px;
+	margin-top: 22px;
+	margin-left: 0px;
+}
+
+#experienciaprofesional{
+    font-family: 'Oswald', sans-serif;
+    color: #00897B;
+    float: right;
+    position: relative;
+    height: 200px;
+    margin-top: 0px;
+}
+
+.nombre{
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.cargo{
+    color:#1F1F1F;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descripcion {
+    color: #69716D;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.fecha{
+    color: #C6CAC8;
+    font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+
+.educacion{
+    color: #00897B;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+
+}
+h3{
+    color: #00897B;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10px;
+    width: 150px;
+}
+
+#lenguajeyotros{
+    display: flex;
+    position:absolute;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+    padding-bottom: 0px;
+}
+
+#web {
+	margin-left: 120px;
+}
+
+#informacion{
+    margin-left: 90px;
+}
+
+#habilidadestecnicas {
+    padding-top: 130px;
+}
+#habi{
+    width: 200px;
+
+}
+
+#primero {
+    display: flex;
+    position:absolute;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+    padding-bottom: 0px;
+    left:20px;
+    top: 970px;
+}
+
+#segundo {
+    display: flex;
+    position:absolute;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+    padding-bottom: 0px;
+    margin-left: 280px;
+    height: 82px;
+    top: 985px;
+}
+
+#tercero {
+    display: flex;
+    position:absolute;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+    padding-bottom: 0px;
+    margin-left: 530px;
+    height: 50px;
+    top: 970px;
+
+
+}
+
+#cuarto{
+    display: flex;
+    position:absolute;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+    height: 82px;
+    top:1080px;
+    left:20px;
+}
+
+#quinto{
+    display: flex;
+    position:absolute;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+    height: 82px;
+    top:1080px;
+    margin-left: 280px;
+}
+
+#sexto{
+    display: flex;
+    position:absolute;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+    height: 82px;
+    top:1080px;
+    margin-left: 540px;
+
+}
+
+#septimo{
+    display: flex;
+    position:absolute;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+    height: 82px;
+    top:1200px;
+    left:20px;
+}
+#octavo{
+    display: flex;
+    position:absolute;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+    height: 82px;
+    top:1200px;
+    margin-left: 280px;
+}
+p#dos{
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 90px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin:auto;
+    border: white 1px outset;
+
+
+}
+p#tres{
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    text-align: left;
+    padding-top: 10px;
+    width: 180px;
+    height: 90px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: white 1px outset;
+
+}
+
+p#uno{
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    text-align: left;
+    padding-top: 10px;
+    width: 200px;
+    height: 90px;
+    border: white 1px outset;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 5px;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+p#cuatro{
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    text-align: left;
+    padding-top: 10px;
+    width: 200px;
+    height: 90px;
+    border: white 1px outset;
+
+}
+
+p#cinco{
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    text-align: left;
+    padding-top: 10px;
+    width: 200px;
+    height: 90px;
+    border: white 1px outset;
+
+}
+p#seis{
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    text-align: left;
+    padding-top: 10px;
+    width: 180px;
+    height: 90px;
+    border: white 1px outset;
+
+}
+
+p#siete{
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    text-align: left;
+    padding-top: 10px;
+    width: 200px;
+    height: 90px;
+    border: white 1px outset;
+}
+
+p#ocho{
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    text-align: left;
+    padding-top: 10px;
+    width: 440px;
+    height: 90px;
+    border: white 1px outset;
+}
+
+#fronthabilidades {
+    margin-top: 50px;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+
+#contenedorfront {
+    height:800px;
+    width: 700px;
+    background-color: darkgray;
+    background-image: url(imagen1.jpg);
+}
+
+
+h5{
+    width: 200px;
+}
+h6 {
+    color: white;
+}
+h4{
+    color: white;
+}
+
+#bodyfront{
+    background-image: url(imagen3.jpg);
+}
+
+#jumbo {
+    top: 450px;
+    position: absolute;
+    width: 650px;
+    height: 320px;
+    background-color: #181818;
+    color: white;
+}
+
+#jumbotitulo{
+    padding-bottom: 30px;
+    margin-bottom:10px;
+}
+
